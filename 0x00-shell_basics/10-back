@@ -1,2 +1,3 @@
 #!/bin/bash
-./var
+cd /var
+exec bash
