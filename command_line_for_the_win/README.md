@@ -4,15 +4,15 @@
 
 ---
 
-### [0. First 九 tasks](./0-first_9_tasks)
+### [0. First 九 tasks](./0-first_9_tasks.png)
 * Complete the first 9 tasks.
 
 
-### [1. Reach חי completed tasks](./1-next-9-tasks)
+### [1. Reach חי completed tasks](./1-next-9-tasks.png)
 * Complete the 9 next tasks, getting to 18 total.
 
 
-### [2. Reach the perfect cube, 27](./2-last-9-tasks)
+### [2. Reach the perfect cube, 27](./2-last-9-tasks.png)
 * Complete the 9 next tasks, getting to 27 total.
 
 ---
