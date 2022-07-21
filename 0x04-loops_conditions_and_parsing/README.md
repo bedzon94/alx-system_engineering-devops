@@ -38,7 +38,7 @@ Files | Description
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><img src="https://avatars2.githubusercontent.com/u/40460447?v=4" width="100px;" alt=""/><br /><sub><b>Eugene</b></sub></a><br /><a href="#infra-eadortsu" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/bedzon94/alx-system_engineering-devops/0x04-loops_conditions_and_parsing/commits?author=bedzon94" title="Bash">⚠️</a> <a href="https://github.com/bedzon94/alx-system_engineering-devops/0x04-loops_conditions_and_parsing/commits?author=bedzon94" title="Bash"">🎨</a> </a></td>
+   
   </tr>
 </table>
 
