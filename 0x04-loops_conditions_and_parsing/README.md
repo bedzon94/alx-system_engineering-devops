@@ -33,14 +33,8 @@ Files | Description
 
 ## Author
 
-https://avatars.githubusercontent.com/u/99494922?v=4
-
-
-
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-
-| [<img src="https://avatars.githubusercontent.com/u/99494922?v=4" width="75px;"/><br /><sub><b>Norris Selorm Bedzo</b></sub>][💻](https://github.com/bedzon94/alx-system_engineering-devops/commits?author=bedzon94 "Code") [📖](https://github.com/bedzon94/alx-system_engineering-devops/commits?author=bedzon94 "Documentation") [🤔] |
-| :---: |
-
+| [<img src="https://avatars.githubusercontent.com/u/99494922?v=4" width="75px;"/><br /><sub><b>Norris Selorm Bedzo</b></sub>][💻](https://github.com/bedzon94/alx-system_engineering-devops/commits?author=bedzon94 "Code") [📖](https://github.com/bedzon94/alx-system_engineering-devops/commits?author=bedzon94 "Documentation") [🤔] (#ideas-bedzon94 "Ideas, Planning, & Feedback")|
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
