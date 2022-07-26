@@ -8,7 +8,7 @@ This project is about how to build a regular expression using Oniguruma, a regul
 
 Files | Description
 ----- | -----------
-[0-simply_match_school.rb](./0-simply_match_school.rb |  Ruby script that accepts one argument and pass it to a regular expression matching method that has to match 'School'
+[0-simply_match_school.rb](./0-simply_match_school.rb) |  Ruby script that accepts one argument and pass it to a regular expression matching method that has to match 'School'
 [1-repetition_token_0.rb](./1-repetition_token_0.rb) | Ruby script that accepts one argument and pass it to a regular expression matching method that has to match a repetition token
 [2-repetition_token_1.rb](./2-repetition_token_1.rb) | Ruby script that accepts one argument and pass it to a regular expression matching method that has to match a repetition token
 [3-repetition_token_2.rb](./3-repetition_token_2.rb) | Ruby script that accepts one argument and pass it to a regular expression matching method that has to match a repetition token
