@@ -6,7 +6,7 @@ This project covers:
 - [OSI Model](https://en.wikipedia.org/wiki/OSI_model)
 - [LAN](https://en.wikipedia.org/wiki/Local_area_network)
 - [WAN](https://en.wikipedia.org/wiki/Wide_area_network)
-- I[nternet](https://en.wikipedia.org/wiki/Internet)
+- [Internet](https://en.wikipedia.org/wiki/Internet)
 - [TCP/UDP](https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/)
 - [Localhost](https://en.wikipedia.org/wiki/Localhost)
 
