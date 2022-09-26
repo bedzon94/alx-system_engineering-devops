@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-# Configure new nginx server to have a custom header
-apt-get -y update
-apt-get install -y nginx
+# Configures an Nginx server so that /redirect_me redirects to another page.
+# The redirection is configured as a "301 Moved Permanently"
+
+sudo apt-get update
+sudo apt-get install -y nginx
 sed -i '11i\add_header X-Served-By $HOSTNAME;' /etc/nginx/nginx.conf
-service nginx restart
+sudo service nginx restart
