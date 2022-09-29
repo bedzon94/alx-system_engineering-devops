@@ -41,6 +41,10 @@ backend web-backend
         balance roundrobin
         server 22487-web-01 44.211.26.34:80 check
         server 22487-web-02 44.192.114.202:80 check
+        
+frontend https
+        bind *:443 ssl crt /etc/letsencrypt/live/wearelive.tech/fullchain.pem
+        default_backend web-backend
 
 listen 22487-web-01
         bind *:80
