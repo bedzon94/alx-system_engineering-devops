@@ -20,10 +20,10 @@ def make_json(users = None, todos = None, u = None):
 if __name__ == "__main__":
     if len(sys.argv) == 2 and sys.argv[1].isdigit():
         args_id = {"id": sys.argv[1]}
-        users = requests.get("https://jsonplaceholder.typicode.com/users",
+        users = requests.get("https://jsonplaceholder.typicode.com/users/{}",
                              params=args_id).json()
         args_userid = {"userId": sys.argv[1]}
-        todos = requests.get("https://jsonplaceholder.typicode.com/todos",
+        todos = requests.get('https://jsonplaceholder.typicode.com/todos'),
                              params=args_userid).json()
 
         make_json(users, todos, sys.argv[1])
