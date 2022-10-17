@@ -13,7 +13,7 @@ def make_all(users=None, todos=None):
             u = i.get("id")
             for i in todos:
                 if u == i.get("userId"):
-                    all_list.append({"username": users.get("username"),
+                    all_list.append({"username": users[1].get("username"),
                                      "task": i.get("title"),
                                      "completed": i.get("completed")})
             alljson[u] = all_list
