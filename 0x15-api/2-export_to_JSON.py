@@ -5,7 +5,7 @@ import requests
 import sys
 
 
-def make_json(users = None, todos = None, u = None):
+def make_json(users =None, todos =None, u =None):
     """Turns payloads into CSV format"""
     all_list = []
     with open(sys.argv[1] + ".json", "w") as f:
