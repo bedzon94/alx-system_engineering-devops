@@ -4,7 +4,7 @@ import json
 import requests
 
 
-def make_all(users=None, todos=None):
+def make_all(users= None, todos= None):
     """Turns all payloads into JSON format"""
     all_list = []
     alljson = {}
