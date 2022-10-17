@@ -21,7 +21,7 @@ def make_all(users=None, todos=None):
 
 
 if __name__ == "__main__":
-    users = requests.get("https://jsonplaceholder.typicode.com/users/").json()
-    todos = requests.get("https://jsonplaceholder.typicode.com/todos/").json()
+        users = requests.get("https://jsonplaceholder.typicode.com/users").json()
+        todos = requests.get("https://jsonplaceholder.typicode.com/todos").json()
 
-    make_all(users, todos)
+    make_all()
