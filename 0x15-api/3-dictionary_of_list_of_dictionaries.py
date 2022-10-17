@@ -21,7 +21,12 @@ def make_all(users=None, todos=None):
 
 
 if __name__ == "__main__":
-    users = requests.get("https://jsonplaceholder.typicode.com/users/").json()
-    todos = requests.get("https://jsonplaceholder.typicode.com/todos/").json()
+    if len(sys.argv) == 2 and sys.argv[1].isdigit():
+        args_id = {"id": sys.argv[1]}
+        users = requests.get("https://jsonplaceholder.typicode.com/users",
+                             params=args_id).json()
+        args_userid = {"userId": sys.argv[1]}
+        todos = requests.get("https://jsonplaceholder.typicode.com/todos",
+                             params=args_userid).json()
 
     make_all(users, todos)
