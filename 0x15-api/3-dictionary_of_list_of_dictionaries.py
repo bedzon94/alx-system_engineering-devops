@@ -13,7 +13,7 @@ def make_all(users=None, todos=None):
             u = i.get("id")
             for i in todos:
                 if u == i.get("userId"):
-                    all_list.append({"username": users[1].get("username"),
+                    all_list.append({"username": users[0].get("username"),
                                      "task": i.get("title"),
                                      "completed": i.get("completed")})
             alljson[u] = all_list
@@ -21,7 +21,7 @@ def make_all(users=None, todos=None):
 
 
 if __name__ == "__main__":
-    users = requests.get("https://jsonplaceholder.typicode.com/users/").json()
-    todos = requests.get("https://jsonplaceholder.typicode.com/todos/").json()
+    users = requests.get("https://jsonplaceholder.typicode.com/users").json()
+    todos = requests.get("https://jsonplaceholder.typicode.com/todos").json()
 
     make_all(users, todos)
