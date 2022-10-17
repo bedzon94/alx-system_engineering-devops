@@ -10,9 +10,9 @@ def make_all(users=None, todos=None):
     alljson = {}
     with open("todo_all_employees.json", "w") as f:
         for i in users:
-            u = i.get("id")
+            u = i.get("userId")
             for i in todos:
-                if u == i.get("userId"):
+                if u == i.get("idd"):
                     all_list.append({"username": users[0].get("username"),
                                      "task": i.get("title"),
                                      "completed": i.get("completed")})
