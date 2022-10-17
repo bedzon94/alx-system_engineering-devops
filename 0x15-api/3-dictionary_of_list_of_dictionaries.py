@@ -10,17 +10,18 @@ def make_all(users=None, todos=None):
     alljson = {}
     with open("todo_all_employees.json", "w") as f:
         for i in users:
+            u = i.get("id")
             for i in todos:
-                if i.get("userId") == i.get("id"):
+                if u == i.get("userId"):
                     all_list.append({"username": users[0].get("username"),
                                      "task": i.get("title"),
                                      "completed": i.get("completed")})
-            alljson[i.get("id")] = all_list
+            alljson[u] = all_list
         json.dump(alljson, f)
 
 
 if __name__ == "__main__":
-    users = requests.get("https://jsonplaceholder.typicode.com/users").json()
-    todos = requests.get("https://jsonplaceholder.typicode.com/todos").json()
+    users = requests.get("https://jsonplaceholder.typicode.com/users/").json()
+    todos = requests.get("https://jsonplaceholder.typicode.com/todos/").json()
 
     make_all(users, todos)
